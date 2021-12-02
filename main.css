@@ -1,0 +1,77 @@
+* { box-sizing: border-box;}
+
+.topNavBar {
+    display: grid;
+    grid-template-columns: 140px auto;
+    align-content: center space-evenly;
+    height: 5.5em;
+    background-color: #0fbcad;
+    box-shadow: 0 24px 64px -2px rgb(0 0 0 / 2%), 0 6px 16px -2px rgb(0 0 0 / 6%), 0 2px 6px -2px rgb(0 0 0 / 8%);
+  }
+
+  .buton-meniu {
+    font-size: 2em;
+    color: rgb(37, 37, 37);
+    position: absolute;
+    top: 35px;
+}
+
+  
+.topNavBarRight a:hover {
+    color: white;
+  }
+
+  #logo {
+      max-height: 90px;
+      padding: 1em;
+  }
+
+  .topNavBarRight {
+    align-content: center;
+  }
+
+  .middleContent {
+    display:grid;
+    grid-template-columns: 200px auto;
+  }
+
+  .sideBar {
+    background-color: salmon;
+    max-width: 12em;
+    min-width: 7em; 
+  }
+  
+  .sideMenuIcon   {
+    vertical-align: middle;
+   }
+
+   .sideBar p {
+    display:inline;
+    padding-left: 15px;
+    text-align:right;
+}
+
+  .sideBar a{
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+  
+  .sideBar a:hover {
+    background-color: #0fbcad;
+    color: white;
+    border-radius: 100px 0 0 100px;
+  }
+  
+  .pageContent{
+      text-align: center;
+      padding: 0 100px 0 100px;
+  }
+
+  .lista-cu-intrebari {
+      font-size: x-large;
+      text-align: left;
+  }
